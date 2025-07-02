@@ -1,0 +1,16 @@
+:root {
+  --second-primary-color: #009E66;
+}
+
+html, body {
+  font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, 
+               "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+               "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", 
+               "Noto Color Emoji";
+  line-height: 1.5;
+  font-weight: 400;
+  color: #FFFFFF;
+  background-color: #101010;
+  margin: 0; 
+  padding: 0;
+}
