@@ -1,0 +1,75 @@
+.header {
+    background-color: transparent;
+    padding: 1.9rem 1.5rem;
+    letter-spacing: 1px;
+  }
+  .container {
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+    opacity: 0.9;
+    
+  }
+  .logo span{
+color: var(--second-primary-color);
+
+  }
+  .nav_list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.8rem;
+  }
+  
+  /*  the hover effect*/
+  .nav_list li a {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding-bottom: 2px;
+    opacity: 1;
+    font-size: 18px;
+    transition: color 0.1s ease;
+    font-weight: 480;
+  }
+  .nav_list li button{
+
+    padding: 11px 24px;
+    border: 1.5px solid var(--second-primary-color);
+    background-color: transparent;
+    color: white;
+    border-radius:3px ;
+  }
+
+  .nav_list li button:hover{
+    background-color: var(--second-primary-color);
+
+  }
+  
+  .nav_list li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0; 
+    height: 2px;
+    background-color: var(--second-primary-color);
+    ;
+    transition: width 0.3s ease;
+  }
+  .nav_list li a:hover::after {
+    width: 60%; 
+  }

@@ -1,5 +1,5 @@
 import  react  from 'react'
-
+import Header from './Components/Header/Header'
 
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-    Hello  
+   <Header/> 
     </>
   )
 }
