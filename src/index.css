@@ -1,6 +1,6 @@
 :root {
-  --second-primary-color: hwb(159 0% 38%);
-  ;
+  --second-primary-color: #00ff7f;
+  
 }
 
 html, body {
@@ -13,4 +13,7 @@ html, body {
 
 ::selection {
   background-color: #009E66;  
+}
+* {
+  font-family: 'Poppins', sans-serif;
 }
