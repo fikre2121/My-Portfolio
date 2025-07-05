@@ -1,0 +1,29 @@
+.animated_line {
+    position: relative;
+    height: 4px;
+    background-color:var(--second-primary-color); /* the base line color */
+    width: 90px; /* adjust as needed */
+    margin-top: 4px;
+    overflow: hidden;
+    border-radius: 2px;
+  }
+  
+  .animated_line .dot {
+    position: absolute;
+    top: -4px;
+    width: 10px;
+    height: 12px;
+    background-color: black;
+    border-radius: 50%;
+    animation: moveDot 4s linear infinite;
+  }
+  
+  @keyframes moveDot {
+    0% {
+      left: 0%;
+    }
+    100% {
+      left: 100%;
+    }
+  }
+  

@@ -1,0 +1,159 @@
+.about {
+  background-color: #101010;
+  color: #ffffff;
+  padding: 60px 20px;
+  display: flex;
+  gap: 40px;
+}
+
+
+.top_me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.top_me p {
+  color: #dddddd;
+  opacity: 0.6;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  padding-top: 30px;
+}
+.top_me h2 {
+  font-size: 2.5rem;
+  margin-bottom: 4px;
+}
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 1100px;
+  margin: auto;
+  align-items: flex-start;
+}
+
+
+.profileImg img {
+  width: 100%;
+  max-width: 350px;
+  object-fit: cover;
+  max-height: 450px;
+}
+
+.info {
+  flex: 2;
+}
+
+.info h3 {
+  color: var(--second-primary-color);
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.info h1,
+.top_me h2 {
+  color: #f0f0f0;
+
+}
+
+
+.info p {
+  margin-bottom: 20px;
+  color: #DADADA;
+  
+}
+
+hr {
+  background-color: #898989;
+  border: none;
+  height: 1px;
+  opacity: 0.3;
+}
+.details {
+  display: flex;
+  gap: 100px;
+  margin-bottom: 20px;
+}
+.details p {
+  margin: 5px 0;
+}
+.details p span{
+  margin-right: 20px;
+}
+.details a {
+  color: var(--second-primary-color);
+  text-decoration: none;
+}
+
+.buttons .btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color:var(--second-primary-color);
+  color: #fff;
+  border-radius: 25px;
+  text-decoration: none;
+  margin: 20px 0;
+  font-weight: bold;
+ 
+}
+
+.buttons .btn:hover {
+  background-color: #00994d;
+  opacity: 0.8;
+}
+
+.socials {
+  margin-top: 10px;
+
+}
+
+.socials a {
+  color:#DADADA;
+  font-size: 1.4rem;
+  margin-right: 15px;
+  transition: color 0.3s ease;
+  text-align: center;
+}
+
+.socials a:hover {
+  color: var(--second-primary-color);
+}
+.social_button{
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.line_space{
+  width: 80px;
+  height: 2px;
+  background-color:  #f0f0f0;
+  opacity: 0.3;
+}
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+.info{
+  padding: 20px;
+}
+  .info h1 {
+    font-size: 1.5rem;
+  }
+
+  .profileImg img {
+    max-width: 280px;
+  }
+
+  .details {
+    /* display: flex; */
+    flex-direction: column;
+    gap: 10px;
+    /* margin-bottom: 20px; */
+  }
+}

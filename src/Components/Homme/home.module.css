@@ -16,7 +16,7 @@
 }
 
 .content h4 {
-  color: #00ff7f;
+  color: var(--second-primary-color);
   font-size: 1.2rem;
   margin-bottom: 1rem;
 }
@@ -37,18 +37,6 @@
   font-weight: bold;
   font-size: 1.6rem;
 }
-
-.ctaBtn {
-  background: #00ff7f;
-  border: none;
-  padding: 0.8rem 2rem;
-  border-radius: 6px;
-  font-weight: bold;
-  cursor: pointer;
-  color: #000;
-  transition: 0.3s;
-}
-
 
 
 .socials {

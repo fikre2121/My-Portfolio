@@ -52,20 +52,6 @@ color: var(--second-primary-color);
     opacity: 0.9;
 
   }
-  .nav_list li button{
-
-    padding: 11px 24px;
-    border: 1px solid var(--second-primary-color);
-    background-color: transparent;
-    color: white;
-    border-radius:3px ;
-  }
-
-  .nav_list li button:hover{
-    background-color: var(--second-primary-color);
-    color: black;
-
-  }
   
   .nav_list li a::after {
     content: "";

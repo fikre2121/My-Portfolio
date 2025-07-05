@@ -1,5 +1,6 @@
 import React from 'react'
 import clases from "./header.module.css"
+import Button from '../Globalcomponents/Button/Button';
  function Header() {
   return (
     <>
@@ -29,7 +30,7 @@ import clases from "./header.module.css"
                 <a href="#contact">Contact</a>
               </li>
               <li>
-                <button>DOWNLOAD CV</button>
+                <Button className="secondary">Download CV</Button>
               </li>
             </ul>
           </nav>

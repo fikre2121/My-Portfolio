@@ -3,6 +3,7 @@ import clases from "./home.module.css";
 import { FaGithub, FaTwitter, FaLinkedinIn, FaYoutube } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import bgImage from "../../assets/images/person.jpg";
+import Button from "../Globalcomponents/Button/Button";
 export default function Home() {
   return (
     <div className={clases.hero}>
@@ -28,12 +29,12 @@ export default function Home() {
             className={clases.animatedText}
           />
         </p>
-        <button className={clases.ctaBtn}>SAY HELLO</button>
+        <Button>Say Hello</Button>
       </div>
 
       <div className={clases.socials}>
         <a
-          href="https://github.com/your-username"
+          href="https://github.com/fikre2121"
           target="_blank"
           rel="noopener noreferrer"
         >
