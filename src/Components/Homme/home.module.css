@@ -7,7 +7,7 @@
   background-color: #252b35;
   color: white;
   position: relative;
-  margin-top: -100px;
+  margin-top: -140px;
   padding-top:100px ;
 }
 
@@ -16,7 +16,7 @@
 }
 
 .content h4 {
-  color: var(--second-primary-color);
+  color: var(--primary-color-bright);
   font-size: 1.2rem;
   margin-bottom: 1rem;
 }

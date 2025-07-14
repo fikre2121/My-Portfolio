@@ -6,12 +6,9 @@ import Animatedline from "../Globalcomponents/Animatedline/Animatedline";
 import Button from "../Globalcomponents/Button/Button";
 const AboutMe = () => {
   return (
-    <section>
-      <div className={clases.top_me}>
-        <p>get to know me </p>
-        <h2>About Me</h2>
-        <Animatedline />
-      </div>
+    <section id="about" className={clases.topContaineer}>
+      <Animatedline title={"About Me"} subtitle={"Get to know me"} />
+
       <div className={clases.about}>
         <div className={clases.container}>
           <div className={clases.profileImg}>

@@ -18,6 +18,26 @@
     animation: moveDot 4s linear infinite;
   }
   
+  .top_me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.top_me p {
+  color: #dddddd;
+  opacity: 0.6;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  padding-top: 30px;
+}
+.top_me h2 {
+  font-size: 2.5rem;
+  margin-bottom: 3px;
+}
+
   @keyframes moveDot {
     0% {
       left: 0%;

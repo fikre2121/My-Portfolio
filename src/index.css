@@ -1,6 +1,6 @@
 :root {
   --second-primary-color:  #00994d;
-  
+  --primary-color-bright: #00ff7f;
 }
 
 html, body {
@@ -9,11 +9,9 @@ html, body {
   background-color: #101010;
   margin: 0; 
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 ::selection {
   background-color: #009E66;  
-}
-* {
-  font-family: 'Poppins', sans-serif;
 }
