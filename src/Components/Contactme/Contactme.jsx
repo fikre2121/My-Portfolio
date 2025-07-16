@@ -40,6 +40,7 @@ const Contactme = () => {
           <div className={styles.info}>
             <div className={styles.item}>
               <FaUserCircle className={styles.icon} />
+              
               <div>
                 <h4>Name</h4>
                 <p>Fikre Kindeya</p>
