@@ -57,7 +57,7 @@ const Contactme = () => {
               <FaPhoneAlt className={styles.icon} />
               <div>
                 <h4>Call Me</h4>
-                <p>+251 912345678</p>
+                <p>+251 928140930</p>
               </div>
             </div>
             <div className={styles.item}>

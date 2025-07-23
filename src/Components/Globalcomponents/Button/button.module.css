@@ -9,11 +9,14 @@
     font-weight: bold;
     border: none;
     font-size: 15px;
+     transition: all 0.3s ease;
+     cursor: pointer;
   }
   
   .customButton:hover {
-    background-color: #00994d;
-    opacity: 0.8;
+    background-color:var(--primary-color-bright) ;
+   color: black;
+   
   }
   
 
@@ -24,6 +27,7 @@
     color: white;
     border-radius:3px ;
     color: #EAEAEB;
+    transition: all 0.3s ease;
   }
   .secondary:hover{
     background-color: var(--primary-color-bright);

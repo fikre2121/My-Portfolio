@@ -10,14 +10,14 @@ function App() {
 
   return (
     <>
-   <Header/> 
-   <Home/>
-   <AboutMe/>
-   <Portfolio/>
-   <Contactme/>
-   <Skilles/>
+      <Header />
+      <Home />
+      <AboutMe />
+      <Portfolio />
+      <Skilles />
+      <Contactme />
     </>
-  )
+  );
 }
 
 export default App

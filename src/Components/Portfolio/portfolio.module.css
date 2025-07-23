@@ -1,6 +1,5 @@
 .portfolioSection {
   padding: 1rem 2rem;
-  /* background-color: #f9f9f9; */
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -43,7 +42,7 @@
 .projectCard {
   position: relative;
   overflow: hidden;
-  /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); */
+ 
   transition: transform 0.3s ease;
 }
 
@@ -106,12 +105,12 @@
 
 @media (min-width: 768px) {
   .projectGrid {
-    grid-template-columns: repeat(2, 1fr); /* 2 on medium screens */
+    grid-template-columns: repeat(2, 1fr); 
   }
 }
 
 @media (min-width: 1024px) {
   .projectGrid {
-    grid-template-columns: repeat(3, 1fr); /* 3 on large screens */
+    grid-template-columns: repeat(3, 1fr); 
   }
 }

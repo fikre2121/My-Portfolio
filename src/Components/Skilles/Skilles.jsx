@@ -16,7 +16,7 @@ const skills = [
 
 const SkillsProgress = () => {
   return (
-    <section className={styles.skillsSection}>
+    <section  id="Skilles" className={styles.skillsSection}>
       <div className={styles.container_Top}>
         <Animatedline
           title={"My Skills"}

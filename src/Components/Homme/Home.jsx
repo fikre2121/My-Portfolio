@@ -6,7 +6,7 @@ import bgImage from "../../assets/images/person.jpg";
 import Button from "../Globalcomponents/Button/Button";
 export default function Home() {
   return (
-    <div className={clases.hero}>
+    <div id="Home" className={clases.hero}>
       <div className={clases.content}>
         <h4>HELLO I'M</h4>
         <h1>
