@@ -16,22 +16,24 @@ const AboutMe = () => {
           </div>
 
           <div className={clases.info}>
-            <h3>Who am I?</h3>
-            <h1>
-              I'm Fikre kindeya, a Full stack Developer and Modern Website
-              Developer
-            </h1>
+            <div data-aos="fade-up">
+              <h3>Who am I?</h3>
+              <h1>
+                I'm Fikre kindeya, a Full stack Developer and Modern Website
+                Developer
+              </h1>
 
-            <p>
-              I am a freelancer based in Ethiopia and I have been building
-              noteworthy UX/UI designs and websites for years, which comply with
-              the latest design trends. I help convert a vision and an idea into
-              meaningful and useful products. Having a sharp eye for product
-              evolution helps me prioritize tasks, iterate fast and deliver
-              faster.
-            </p>
+              <p>
+                I am a freelancer based in Ethiopia and I have been building
+                noteworthy UX/UI designs and websites for years, which comply
+                with the latest design trends. I help convert a vision and an
+                idea into meaningful and useful products. Having a sharp eye for
+                product evolution helps me prioritize tasks, iterate fast and
+                deliver faster.
+              </p>
+            </div>
             <hr />
-            <div className={clases.details}>
+            <div className={clases.details} data-aos="fade-up">
               <div>
                 <p>
                   <span>Name:</span> Fikre Kindeya
@@ -54,7 +56,7 @@ const AboutMe = () => {
                 </p>
               </div>
             </div>
-            <div className={clases.social_button}>
+            <div className={clases.social_button} data-aos="fade-up">
               <div>
                 <a href="#">
                   <Button> Download CV</Button>

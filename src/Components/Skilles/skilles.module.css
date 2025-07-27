@@ -1,52 +1,93 @@
-/* components/SkillsProgress/SkillsProgress.module.css */
-
 .skillsSection {
-  background-color: rgba(37, 43, 53, 0.4);
+  background: linear-gradient(to right, #111827, #1f2937);
   color: #fff;
   padding: 60px 20px;
 }
+
 .container_Top {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .container {
   max-width: 1100px;
   margin: 0 auto;
-  padding-top: 100px;
+  padding-top: 60px;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 30px;
 }
 
 .skillItem {
+  background: rgba(255, 255, 255, 0.05);
+  display: flex;
+  align-items: center;
+  padding: 20px 24px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(8px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skillItem:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.3);
+}
+
+.iconWrapper {
+  font-size: 38px;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+
+.infoWrapper {
+  flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 8px;
 }
 
 .skillHeader {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   font-size: 16px;
-  font-weight: 500;
-  color: #eee;
+  font-weight: 600;
+  margin-bottom: 8px;
 }
 
 .progressBar {
   width: 100%;
-  background-color: #333;
-  height: 8px;
+  background-color: #2d3748;
+  height: 6px;
+  border-radius: 5px;
   overflow: hidden;
 }
 
 .progress {
   height: 100%;
-  background: var(--second-primary-color);
-  transition: width 0.6s ease;
+  background-color: var(--second-primary-color);
+  transition: width 0.8s ease-in-out;
+  /* border-radius: 5px; */
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .skillItem {
+    /* flex-direction: column; */
+    align-items: flex-start;
+  }
+
+  .iconWrapper {
+    margin-bottom: 10px;
+  }
+
+  .skillHeader {
+    width: 100%;
+  }
 }
 @media (min-width: 1024px) {
   .grid {

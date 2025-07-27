@@ -15,7 +15,7 @@ const Contactme = () => {
         subtitle={"Feel free to contact me anytimes"}
       />
       <div className={styles.wrapper}>
-        <div className={styles.left}>
+        <div className={styles.left} data-aos="fade-up">
           <h2 className={styles.title}>Message Me</h2>
           <form className={styles.form}>
             <div className={styles.inputGroup}>
@@ -30,7 +30,7 @@ const Contactme = () => {
           </form>
         </div>
 
-        <div className={styles.right}>
+        <div className={styles.right} data-aos="fade-up" >
           <h3>Contact Info</h3>
           <p className={styles.description}>
             Always available for freelance work if the right project comes
@@ -40,7 +40,7 @@ const Contactme = () => {
           <div className={styles.info}>
             <div className={styles.item}>
               <FaUserCircle className={styles.icon} />
-              
+
               <div>
                 <h4>Name</h4>
                 <p>Fikre Kindeya</p>
