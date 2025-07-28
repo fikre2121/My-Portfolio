@@ -49,7 +49,12 @@ const Portfolio = () => {
               />
               <div className={classes.cardOverlay}>
                 <h3>{item.title}</h3>
-                <a href={item.link} className={classes.viewDetails}>
+                <p>{item.description}</p>
+                <a
+                  href={item.link}
+                  className={classes.viewDetails}
+                  target="_blank"
+                >
                   View Project <FiExternalLink className={classes.icon} />
                 </a>
               </div>

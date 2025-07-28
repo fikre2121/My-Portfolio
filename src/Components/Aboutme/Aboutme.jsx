@@ -4,6 +4,8 @@ import clases from "./aboutme.module.css";
 import { FaGithub, FaTwitter, FaLinkedinIn, FaYoutube } from "react-icons/fa";
 import Animatedline from "../Globalcomponents/Animatedline/Animatedline";
 import Button from "../Globalcomponents/Button/Button";
+import SocialLinks from "../SocialLinks/SocialLinks";
+import styles from "../SocialLinks/social.module.css"
 const AboutMe = () => {
   return (
     <section id="about" className={clases.topContaineer}>
@@ -63,32 +65,7 @@ const AboutMe = () => {
                 </a>
               </div>
               <div className={clases.line_space}></div>
-              <div className={clases.socials}>
-                <a
-                  href="https://github.com/fikre2121"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaGithub />
-                </a>
-                <a
-                  href=" https://x.com/FKindeya14928"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaTwitter />
-                </a>
-                <a
-                  href="https://www.linkedin.com/in/fikre-kindeya-45b5aa327"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaLinkedinIn />
-                </a>
-                <a href="#">
-                  <FaYoutube />
-                </a>
-              </div>
+              <SocialLinks className={styles.footerSocials} />
             </div>
           </div>
         </div>

@@ -1,0 +1,16 @@
+.socials {
+  margin-top: 10px;
+
+}
+
+.socials a {
+  color:#DADADA;
+  font-size: 1.4rem;
+  margin-right: 15px;
+  transition: color 0.3s ease;
+  text-align: center;
+}
+
+.socials a:hover {
+  color: var(--second-primary-color);
+}

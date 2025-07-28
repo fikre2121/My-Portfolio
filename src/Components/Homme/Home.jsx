@@ -20,7 +20,7 @@ export default function Home() {
               2000,
               "Frontend Engineer",
               2000,
-              "Full Stack Coder",
+              "Backend Engineer ",
               2000,
             ]}
             wrapper="span"
