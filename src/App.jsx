@@ -8,6 +8,7 @@ import Skilles from "./Components/Skilles/Skilles"
 import AOS from "aos";
 import "aos/dist/aos.css";
 import ScrollToTop from './Components/ScrollTop/ScrollTop'
+import Footer from './Components/Footer/Footer'
 function App() {
 
 useEffect(() => {
@@ -23,6 +24,7 @@ useEffect(() => {
       <Skilles />
       <Contactme />
       <ScrollToTop/>
+      <Footer/>
     </>
   );
 }

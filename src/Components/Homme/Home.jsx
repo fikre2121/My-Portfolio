@@ -29,7 +29,9 @@ export default function Home() {
             className={clases.animatedText}
           />
         </p>
-        <Button>Say Hello</Button>
+        <a href="#contact">
+          <Button>Say Hello</Button>
+        </a>
       </div>
 
       <div className={clases.socials}>
@@ -59,7 +61,7 @@ export default function Home() {
         </a>
       </div>
 
-      <div className={clases.heroImage}>
+      <div className={clases.heroImage} data-aos="fade-up">
         <img src={bgImage} alt="profile" />
       </div>
     </div>

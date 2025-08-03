@@ -35,7 +35,7 @@ export const portfolioData = [
       " https://images.unsplash.com/photo-1649734926695-1b1664e98842?q=80&w=1162&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     title: "Blog with Admin Panel",
     description: "",
-    link: "#",
+    link: "https://amazon-front-endnew.netlify.app/",
   },
   // Add more projects here
 ];

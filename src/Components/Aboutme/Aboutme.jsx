@@ -1,7 +1,6 @@
 import React from "react";
 import profileImg from "../../assets/images/person.jpg";
 import clases from "./aboutme.module.css";
-import { FaGithub, FaTwitter, FaLinkedinIn, FaYoutube } from "react-icons/fa";
 import Animatedline from "../Globalcomponents/Animatedline/Animatedline";
 import Button from "../Globalcomponents/Button/Button";
 import SocialLinks from "../SocialLinks/SocialLinks";

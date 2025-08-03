@@ -39,7 +39,7 @@ const SkillsProgress = () => {
             <div
               key={index}
               className={styles.skillItem}
-              data-aos-delay={index * 800}
+              
               data-aos="fade-up"
             >
               <div className={styles.iconWrapper}>{skill.icon}</div>
