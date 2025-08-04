@@ -33,7 +33,7 @@ const Contactme = () => {
         <div className={styles.right} data-aos="fade-up" >
           <h3>Contact Info</h3>
           <p className={styles.description}>
-            Always available for freelance work if the right project comes
+            Always available for  work if the right project comes
             along, feel free to contact me!
           </p>
 

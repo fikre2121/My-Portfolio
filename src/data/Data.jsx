@@ -13,9 +13,9 @@ export const portfolioData = [
     id: 2,
     category: "fullstack",
     image:
-      "https://kaleidoscopic-pie-2341a3.netlify.app/template/img/item-2.jpg",
-    title: "E-Commerce Platform",
-    description: "",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGKvoFb_MAVvqhxSf7dMCMEjCLY9dxEDWUZQ&s",
+    title: "Evangadi Forum",
+    description: "Loading....",
     link: "#",
   },
   {
@@ -33,8 +33,9 @@ export const portfolioData = [
     category: "fullstack",
     image:
       " https://images.unsplash.com/photo-1649734926695-1b1664e98842?q=80&w=1162&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Blog with Admin Panel",
-    description: "",
+    title: "Amazon Clone",
+    description:
+      "A full-stack eCommerce web application built with React and Firebase. Includes user authentication  and secure Stripe-powered checkout. Real-time database and responsive design ensure a seamless user experience across devices.",
     link: "https://amazon-front-endnew.netlify.app/",
   },
   // Add more projects here

@@ -79,6 +79,9 @@
   text-align: center;
   padding: 30px;
 }
+.cardOverlay h3{
+margin-top: auto 30px;
+}
 .projectCard:hover .cardOverlay {
   transform: translateY(0);
   opacity: 1;

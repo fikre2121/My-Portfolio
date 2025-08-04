@@ -25,12 +25,15 @@ const AboutMe = () => {
               </h1>
 
               <p>
-                I am a freelancer based in Ethiopia and I have been building
-                noteworthy UX/UI designs and websites for years, which comply
-                with the latest design trends. I help convert a vision and an
-                idea into meaningful and useful products. Having a sharp eye for
-                product evolution helps me prioritize tasks, iterate fast and
-                deliver faster.
+                <p>
+                  I'm a full stack developer based in Ethiopia, turning ideas
+                  into reality through beautiful, responsive, and modern
+                  websites. I specialize in building clean, scalable, and
+                  user-friendly digital experiences from front to back. Whether
+                  it's developing intuitive user interfaces or robust backend
+                  systems, I bring visions to life with efficiency and attention
+                  to detail.
+                </p>
               </p>
             </div>
             <hr />
