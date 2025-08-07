@@ -36,7 +36,7 @@ export const portfolioData = [
     title: "Amazon Clone",
     description:
       "A full-stack eCommerce web application built with React and Firebase. Includes user authentication  and secure Stripe-powered checkout. Real-time database and responsive design ensure a seamless user experience across devices.",
-    link: "https://amazon-front-endnew.netlify.app/",
+    link: "https://amazon-frontmadend.netlify.app/",
   },
   // Add more projects here
 ];
