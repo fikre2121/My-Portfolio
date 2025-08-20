@@ -1,6 +1,5 @@
 import React from "react";
 import classes from "./button.module.css";
-
 const Button = ({
   children,
   onClick,
@@ -9,13 +8,17 @@ const Button = ({
   className = "",
 }) => {
   return (
-    <button
-      type={type}
-      onClick={onClick}
-      className={`${classes.customButton} ${classes[className]} ${variant}`}
-    >
-      {children}
-    </button>
+    <div>
+      <a href="fikre_Resume.pdf" download>
+        <button
+          type={type}
+          onClick={onClick}
+          className={`${classes.customButton} ${classes[className]} ${variant}`}
+        >
+          {children}
+        </button>
+      </a>
+    </div>
   );
 };
 

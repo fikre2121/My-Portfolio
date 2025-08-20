@@ -109,26 +109,72 @@ hr {
   background-color:  #f0f0f0;
   opacity: 0.3;
 }
+
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
     align-items: center;
-  }
-.info{
-  padding: 20px;
-}
-  .info h1 {
-    font-size: 1.5rem;
+    gap: 30px;
   }
 
   .profileImg img {
-    max-width: 280px;
+    max-width: 250px; /* smaller for mobile */
+    max-height: 350px;
+    border-radius: 10px; /* optional: nice rounding */
+  }
+
+  .info {
+    padding: 15px 20px;
+    text-align: center; /* center text for mobile */
+  }
+
+  .info h3 {
+    font-size: 1rem;
+    margin-bottom: 8px;
+  }
+
+  .info h1 {
+    font-size: 1.4rem; /* slightly smaller on mobile */
+    line-height: 1.4;
+  }
+
+  .info p {
+    font-size: 0.95rem; /* smaller paragraph text */
+    line-height: 1.6;
+    margin-bottom: 15px;
   }
 
   .details {
-    
     flex-direction: column;
-    gap: 10px;
-    
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+
+  .details p {
+    font-size: 0.9rem;
+    margin: 4px 0;
+  }
+
+  .details p span {
+    display: inline-block;
+    width: 80px; 
+    text-align: right;
+    margin-right: 10px;
+  }
+
+  .social_button {
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .line_space {
+    width: 60px;
+  }
+
+  .buttons .btn {
+    padding: 10px 20px;
+    font-size: 0.9rem;
   }
 }

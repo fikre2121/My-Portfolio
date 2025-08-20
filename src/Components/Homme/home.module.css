@@ -93,12 +93,12 @@
 .hero {
   margin-top: -132px;
 }
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .hero {
     flex-direction: column;
     text-align: center;
     padding: 2rem;
-    padding-top: 4.5rem;
+    padding-top: 1rem;
   }
 
   .socials {
@@ -110,5 +110,92 @@
   .heroImage {
     width: 80%;
     margin-top: 2rem;
+  }
+} */
+
+/* mobile view */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem 1.5rem;
+    margin-top: 1px;
+    min-height: 100vh;
+    justify-content: center;
+  }
+.hero {
+  margin-top: -90px;
+}
+  .content {
+    max-width: 90%;
+    padding-top: 2rem;
+  }
+
+  .content h4 {
+    font-size: 1rem;
+    letter-spacing: 1px;
+  }
+
+  .content h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+  }
+
+
+  
+
+  .content p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+  }
+
+  .animatedText {
+    font-size: 1.3rem;
+  }
+
+  .socials {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin: 1.5rem 0;
+    justify-content: center;
+    position: static;
+    transform: none;
+  }
+
+  .socials a {
+    width: 50px;
+    height: 50px;
+    font-size: 1.4rem;
+    border-radius: 50%;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  .socials a:hover {
+    transform: scale(1.2);
+    background-color: #00ff7f;
+    color: #000;
+  }
+
+  .heroImage {
+    width: 70%;
+    max-width: 300px;
+    margin-top: 2rem;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: transform 0.5s ease;
+  }
+
+  .heroImage img {
+    width: 100%;
+    border-radius: 50%;
+    filter: grayscale(80%);
+    object-fit: cover;
+    transition: transform 0.5s ease, filter 0.5s ease;
+  }
+
+  .heroImage:hover img {
+    transform: scale(1.05);
+    filter: grayscale(0%);
   }
 }
