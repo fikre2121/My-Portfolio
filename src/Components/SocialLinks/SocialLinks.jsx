@@ -1,5 +1,6 @@
 import React from "react";
-import { FaGithub, FaTwitter, FaLinkedinIn, FaYoutube } from "react-icons/fa";
+import { FaGithub, FaTwitter, FaLinkedinIn, FaFacebookF } from "react-icons/fa";
+import { SiX } from "react-icons/si"; 
 import styles from"./social.module.css"
 const SocialLinks = ({ className = "" }) => {
   return (
@@ -16,7 +17,7 @@ const SocialLinks = ({ className = "" }) => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <FaTwitter />
+        <SiX />
       </a>
       <a
         href="https://www.linkedin.com/in/fikre-kindeya-45b5aa327"
@@ -25,8 +26,8 @@ const SocialLinks = ({ className = "" }) => {
       >
         <FaLinkedinIn />
       </a>
-      <a href="#">
-        <FaYoutube />
+      <a href="https://web.facebook.com/fikre.kindeya/" target="_blank">
+        <FaFacebookF />
       </a>
     </div>
   );

@@ -30,19 +30,29 @@ import { HiOutlineMenuAlt3, HiOutlineX } from "react-icons/hi";
           <nav className={`${clases.nav} ${menuOpen ? clases.open : ""}`}>
             <ul className={clases.nav_list}>
               <li>
-                <a href="#Home">Home</a>
+                <a href="#Home" className={clases.nav_link}>
+                  Home
+                </a>
               </li>
               <li>
-                <a href="#about">About</a>
+                <a href="#about" className={clases.nav_link}>
+                  About
+                </a>
               </li>
               <li>
-                <a href="#portfolio">Projects</a>
+                <a href="#portfolio" className={clases.nav_link}>
+                  Projects
+                </a>
               </li>
               <li>
-                <a href="#Skilles">Skilles</a>
+                <a href="#Skilles" className={clases.nav_link}>
+                  Skilles
+                </a>
               </li>
               <li>
-                <a href="#contact">Contact</a>
+                <a href="#contact" className={clases.nav_link}>
+                  Contact
+                </a>
               </li>
               <li>
                 <Button className="secondary">Download CV</Button>

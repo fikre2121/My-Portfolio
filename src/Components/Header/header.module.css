@@ -50,7 +50,7 @@
   opacity: 0.9;
 }
 
-.nav_list li a::after {
+.nav_list li ::after {
   content: "";
   position: absolute;
   left: 0;
@@ -60,7 +60,7 @@
   background-color: var(--primary-color-bright);
   transition: width 0.3s ease;
 }
-.nav_list li a:hover::after {
+.nav_list li a.nav_link:hover::after {
   width: 60%;
 }
 

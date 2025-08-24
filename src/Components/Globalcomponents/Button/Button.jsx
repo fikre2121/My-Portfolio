@@ -8,7 +8,7 @@ const Button = ({
   className = "",
 }) => {
   return (
-    <div>
+    <div className={classes.button_container}>
       <a href="fikre_Resume.pdf" download>
         <button
           type={type}

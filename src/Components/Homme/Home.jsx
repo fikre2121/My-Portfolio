@@ -1,9 +1,11 @@
 import React from "react";
 import clases from "./home.module.css";
-import { FaGithub, FaTwitter, FaLinkedinIn, FaYoutube } from "react-icons/fa";
+import { FaGithub, FaTwitter, FaLinkedinIn, FaFacebookF } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import bgImage from "../../assets/images/person.jpg";
 import Button from "../Globalcomponents/Button/Button";
+import { SiX } from "react-icons/si"; 
+
 export default function Home() {
   return (
     <div id="Home" className={clases.hero}>
@@ -47,7 +49,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaTwitter />
+          <SiX />
         </a>
         <a
           href="https://www.linkedin.com/in/fikre-kindeya-45b5aa327"
@@ -56,8 +58,8 @@ export default function Home() {
         >
           <FaLinkedinIn />
         </a>
-        <a href="#">
-          <FaYoutube />
+        <a href="https://web.facebook.com/fikre.kindeya/" target="_blank">
+          <FaFacebookF />
         </a>
       </div>
 

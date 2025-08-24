@@ -83,8 +83,7 @@
   }
 
   .links {
-    flex-direction: column; /* stack links vertically */
-    gap: 10px;
+    gap: 30px;
     justify-content: center;
     align-items: center;
   }

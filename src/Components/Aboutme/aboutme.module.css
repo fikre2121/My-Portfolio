@@ -118,14 +118,14 @@ hr {
   }
 
   .profileImg img {
-    max-width: 250px; /* smaller for mobile */
+    max-width: 250px; 
     max-height: 350px;
-    border-radius: 10px; /* optional: nice rounding */
+    border-radius: 10px; 
   }
 
   .info {
     padding: 15px 20px;
-    text-align: center; /* center text for mobile */
+    text-align: center; 
   }
 
   .info h3 {
@@ -134,12 +134,12 @@ hr {
   }
 
   .info h1 {
-    font-size: 1.4rem; /* slightly smaller on mobile */
+    font-size: 1.4rem; 
     line-height: 1.4;
   }
 
   .info p {
-    font-size: 0.95rem; /* smaller paragraph text */
+    font-size: 0.95rem; 
     line-height: 1.6;
     margin-bottom: 15px;
   }

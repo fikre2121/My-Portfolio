@@ -49,9 +49,9 @@ const AboutMe = () => {
                 </p>
               </div>
               <div>
-                <p>
+                {/* <p>
                   <span>Age:</span> 23
-                </p>
+                </p> */}
                 <p>
                   <span>Email:</span>
                   <a href="mailto:fikre.gebremariam2121@gmail.com">
