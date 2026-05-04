@@ -8,7 +8,7 @@ import {
   Sparkles,
 } from "lucide-react";
 import Layout from "../Components/site/Layout";
-import portrait from "../assets/hero-portrait.png";
+import portrait from "../assets/images/person2.png";
 import { projects } from "../data/projects";
 
 const services = [

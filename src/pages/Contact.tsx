@@ -6,6 +6,7 @@ import { toast } from "sonner";
 
 const Contact = () => {
   const [sending, setSending] = useState(false);
+  
   const onSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setSending(true);

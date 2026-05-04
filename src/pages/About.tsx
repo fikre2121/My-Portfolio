@@ -1,6 +1,6 @@
 import Layout from "../Components/site/Layout";
 import PageHero from "../components/site/PageHero";
-import portrait from "../assets/hero-portrait.png";
+import portrait from "../assets/images/person2.png";
 
 const experiences = [
   {
