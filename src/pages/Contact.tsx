@@ -22,9 +22,13 @@ const Contact = () => {
       <PageHero eyebrow="Get In Touch" title="Let's start a conversation." />
       <section className="container-page py-20 grid lg:grid-cols-3 gap-10">
         <div className="space-y-5">
-          <Card icon={Mail} label="Email" value="hello@reeni.studio" />
-          <Card icon={Phone} label="Phone" value="+1 (555) 010 — 4422" />
-          <Card icon={MapPin} label="Studio" value="66 Brooklyn Ave, NY 3269" />
+          <Card
+            icon={Mail}
+            label="Email"
+            value="fikre.gebremariam2121@gamil.com"
+          />
+          <Card icon={Phone} label="Phone" value="+251928140930" />
+          <Card icon={MapPin} label="Location" value="Addis Ababa, Ethiopia" />
         </div>
         <form
           onSubmit={onSubmit}

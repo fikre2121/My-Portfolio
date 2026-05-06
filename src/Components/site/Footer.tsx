@@ -7,9 +7,9 @@ const Footer = () => (
       <div className="md:col-span-2">
         <Link to="/" className="flex items-center gap-2">
           <span className="w-9 h-9 rounded-xl bg-gradient-primary grid place-items-center text-primary-foreground font-display font-bold">
-            R
+            F
           </span>
-          <span className="font-display text-2xl font-bold">Reeni</span>
+          <span className="font-display text-2xl font-bold">Fikre</span>
         </Link>
         <p className="mt-4 max-w-md text-muted-foreground">
           A personal studio for crafting calm, considered digital experiences.

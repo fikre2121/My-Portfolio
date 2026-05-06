@@ -97,14 +97,6 @@ const Index = () => {
                   Projects completed
                 </div>
               </div>
-              {/* <div>
-                <div className="font-display text-3xl font-bold">
-                  Full-stack
-                </div>
-                <div className="text-xs uppercase tracking-widest text-muted-foreground">
-                  Developer
-                </div>
-              </div> */}
             </div>
           </div>
           <div className="relative">
@@ -247,20 +239,6 @@ const Index = () => {
                 </span>
               </div>
             </Link>
-          ))}
-        </div>
-      </section>
-
-      {/* CLIENTS */}
-      <section className="border-y border-border bg-secondary/40">
-        <div className="container-page py-12 flex flex-wrap items-center justify-around gap-8">
-          {clients.map((c) => (
-            <span
-              key={c}
-              className="font-display text-2xl font-bold text-muted-foreground/70 hover:text-primary transition"
-            >
-              {c}
-            </span>
           ))}
         </div>
       </section>
