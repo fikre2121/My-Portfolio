@@ -22,26 +22,31 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    slug: "digital-transformation-advisors",
-    title: "Digital Transformation Advisors",
-    category: "Web Design",
-    image: p1,
-    client: "Lumen Consulting",
-    date: "March 2025",
-    duration: "8 weeks",
-    role: "Lead Designer & Developer",
-    tags: ["UI/UX", "Webflow", "Branding"],
+    slug: "kshs-alumni-platform",
+    title: "KSHS Alumni Association Platform",
+    category: "Full Stack",
+    image: p1, 
+    client: "Kallamino Special High School (KSHS)",
+    date: "2026",
+    duration: "MVP Phase",
+    role: "Full Stack Developer",
+    tags: ["React", "Node.js","Tailwind css" ,"Postgress", "Socket.io"],
+
     summary:
-      "A bold redesign for a consultancy that needed a digital home as ambitious as its strategy work.",
+      "A full-stack MVP built to connect Kallamino Special High School alumni and students through communication, networking, and opportunity sharing.",
+
     challenge:
-      "The legacy site looked like a pamphlet. Conversion was below 1% and the team had no way to publish case studies without engineering help.",
+      "KSHS alumni and students lacked a centralized platform to reconnect, communicate, and share opportunities such as jobs, internships, and events.",
+
     solution:
-      "We rebuilt the brand system, designed a modular CMS, and shipped an animated landing experience focused on clarity over cleverness.",
+      "Built a scalable MVP featuring secure authentication, an alumni directory, real-time messaging (private and batch chats), a job and internship board, and an events system with RSVP functionality.",
+
     results: [
-      "Conversion rate up 3.4×",
-      "Average session time +120%",
-      "Editorial team now ships content weekly with zero engineering",
+      "Enabled alumni-student networking in one platform",
+      "Real-time communication through chat system",
+      "Centralized jobs, internships, and event sharing",
     ],
+
     liveUrl: "#",
   },
   {

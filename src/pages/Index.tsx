@@ -120,22 +120,25 @@ const Index = () => {
       </section>
 
       {/* SERVICES */}
-      <section className="container-page py-24">
+      {/* <section className="container-page py-24">
         <div className="grid md:grid-cols-2 gap-8 mb-12">
           <div>
             <p className="text-sm font-semibold uppercase tracking-[0.25em] text-primary">
               What I Do
             </p>
+
             <h2 className="mt-3 font-display text-4xl md:text-5xl font-bold">
-              Inspiring the world, <br /> one project at a time.
+              Building modern full-stack web applications.
             </h2>
           </div>
+
           <p className="text-muted-foreground md:self-end">
-            From the first sketch to the last deploy — strategy, design, and
-            engineering wrapped in one tight feedback loop. Here's what I help
-            teams ship.
+            I design and develop responsive, user-focused web applications from
+            UI to backend systems, while continuously improving my skills and
+            learning how to integrate AI into modern products.
           </p>
         </div>
+
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {services.map((s) => (
             <div
@@ -145,15 +148,17 @@ const Index = () => {
               <div className="w-14 h-14 rounded-2xl bg-accent text-accent-foreground grid place-items-center group-hover:bg-gradient-primary group-hover:text-primary-foreground transition">
                 <s.icon size={24} />
               </div>
+
               <h3 className="font-display text-xl font-bold mt-6">{s.title}</h3>
               <p className="text-sm text-muted-foreground mt-2">{s.desc}</p>
+
               <div className="mt-6 pt-6 border-t border-border text-xs font-semibold uppercase tracking-widest text-primary">
                 {s.count}
               </div>
             </div>
           ))}
         </div>
-      </section>
+      </section> */}
 
       {/* SKILLS */}
       <section className="bg-secondary/40 border-y border-border">
