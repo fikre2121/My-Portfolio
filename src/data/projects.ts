@@ -25,12 +25,12 @@ export const projects: Project[] = [
     slug: "kshs-alumni-platform",
     title: "KSHS Alumni Association Platform",
     category: "Full Stack",
-    image: p1, 
+    image: p1,
     client: "Kallamino Special High School (KSHS)",
     date: "2026",
     duration: "MVP Phase",
     role: "Full Stack Developer",
-    tags: ["React", "Node.js","Tailwind css" ,"Postgress", "Socket.io"],
+    tags: ["React", "Node.js", "Tailwind css", "Postgress", "Socket.io"],
 
     summary:
       "A full-stack MVP built to connect Kallamino Special High School alumni and students through communication, networking, and opportunity sharing.",
@@ -50,26 +50,32 @@ export const projects: Project[] = [
     liveUrl: "#",
   },
   {
-    slug: "thoughtful-mobile-app",
-    title: "Thoughtful Banking Mobile App",
-    category: "App Development",
-    image: p2,
-    client: "Northwave Bank",
-    date: "January 2025",
-    duration: "12 weeks",
-    role: "Product Designer",
-    tags: ["iOS", "Android", "Fintech"],
+    slug: "evangadi-forum",
+    title: "Evangadi Forum",
+    category: "Full Stack",
+    image: p2, // replace with your actual project image
+    client: "Evangadi Bootcamp",
+    date: "2025",
+    duration: "Bootcamp Project",
+    role: "Full Stack Developer",
+    tags: ["React", "Node.js", "Tailwind CSS", "MySQL", "Authentication"],
+
     summary:
-      "A calm, considered banking experience designed around the moments that matter, not the metrics that don't.",
+      "A full-stack question-and-answer web application that allows users to ask questions, share knowledge, and engage with the community through discussions and answers.",
+
     challenge:
-      "Customers felt overwhelmed by the existing app. Daily active sessions were dropping and support tickets were rising.",
+      "Building a scalable and user-friendly platform where authenticated users could securely post questions, provide answers, and interact within a community-driven environment.",
+
     solution:
-      "A complete IA reset, a softer visual language, and a single-question onboarding flow that learns instead of asks.",
+      "Developed a responsive full-stack forum application with secure authentication, question posting, answer submission, and dynamic content rendering using React, Node.js, MySQL, and Tailwind CSS.",
+
     results: [
-      "DAU up 41% in 90 days",
-      "Onboarding completion 92%",
-      "Support tickets down 28%",
+      "Implemented secure user authentication and authorization",
+      "Enabled real-time community-driven question and answer interactions",
+      "Built a clean and responsive user interface for better user experience",
     ],
+
+    liveUrl: "https://golden-medovik-db5600.netlify.app/",
   },
   {
     slug: "curated-portfolio-brand",

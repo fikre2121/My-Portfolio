@@ -6,6 +6,10 @@ import {
   Search,
   Megaphone,
   Sparkles,
+  Instagram,
+  Linkedin,
+  Twitter,
+  Github,
 } from "lucide-react";
 import Layout from "../Components/site/Layout";
 import portrait from "../assets/images/person2.png";
@@ -85,17 +89,16 @@ const Index = () => {
               </Link>
             </div>
             <div className="flex items-center gap-8 pt-6 border-t border-border mt-6">
-              <div>
-                <div className="font-display text-3xl font-bold">3+</div>
-                <div className="text-xs uppercase tracking-widest text-muted-foreground">
-                  Years experience
-                </div>
-              </div>
-              <div>
-                <div className="font-display text-3xl font-bold">6+</div>
-                <div className="text-xs uppercase tracking-widest text-muted-foreground">
-                  Projects completed
-                </div>
+              <div className="flex items-center gap-6">
+                {[Instagram, Linkedin, Twitter, Github].map((Icon, i) => (
+                  <a
+                    key={i}
+                    href="#"
+                    className="w-10 h-10 grid place-items-center rounded-full border border-border hover:bg-gradient-primary hover:text-primary-foreground hover:border-transparent transition"
+                  >
+                    <Icon size={16} />
+                  </a>
+                ))}
               </div>
             </div>
           </div>
