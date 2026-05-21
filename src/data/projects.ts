@@ -53,7 +53,7 @@ export const projects: Project[] = [
     slug: "evangadi-forum",
     title: "Evangadi Forum",
     category: "Full Stack",
-    image: p2, // replace with your actual project image
+    image: p2, 
     client: "Evangadi Bootcamp",
     date: "2025",
     duration: "Bootcamp Project",
