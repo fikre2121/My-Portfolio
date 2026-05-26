@@ -71,6 +71,7 @@ const Header = () => {
                 {n.label}
               </NavLink>
             ))}
+            <ThemeToggle />
           </div>
         </div>
       )}

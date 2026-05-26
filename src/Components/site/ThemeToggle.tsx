@@ -18,7 +18,6 @@ const ThemeToggle = () => {
     root.classList.toggle("dark", theme === "dark");
     localStorage.setItem("theme", theme);
   }, [theme]);
-
   return (
     <button
       onClick={() => setTheme(theme === "dark" ? "light" : "dark")}

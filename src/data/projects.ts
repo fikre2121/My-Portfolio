@@ -50,10 +50,47 @@ export const projects: Project[] = [
     liveUrl: "#",
   },
   {
+    slug: "abes-garage-management-system",
+    title: "Abe’s Garage — Service Management Platform",
+    category: "Full Stack Web App",
+    image: p3, // replace with your project screenshot
+    client: "Abe’s Garage (Case Study)",
+    date: "May 2026",
+    duration: "4–6 weeks",
+    role: "Full Stack Developer",
+
+    tags: [
+      "React",
+      "Node.js",
+      "Express",
+      "MySQL",
+      "REST API",
+      "Admin Dashboard",
+    ],
+
+    summary:
+      "A full-stack web application designed to digitize and streamline garage operations including customer management, service tracking, and mechanic task assignment.",
+
+    challenge:
+      "The garage relied heavily on manual paperwork, phone calls, and disconnected communication to manage customers, vehicle repairs, and service updates, leading to inefficiency and lost time.",
+
+    solution:
+      "Built a centralized web-based system that manages customers, vehicles, service orders, and mechanic assignments with real-time status tracking and role-based access control.",
+
+    results: [
+      "Reduced manual customer data entry",
+      "Minimized status inquiry phone calls",
+      "Improved task assignment efficiency",
+      "Enabled digital service tracking for customers",
+      "Improved customer retention through stored service history",
+    ],
+    liveUrl: "#",
+  },
+  {
     slug: "evangadi-forum",
     title: "Evangadi Forum",
     category: "Full Stack",
-    image: p2, 
+    image: p2,
     client: "Evangadi Bootcamp",
     date: "2025",
     duration: "Bootcamp Project",
