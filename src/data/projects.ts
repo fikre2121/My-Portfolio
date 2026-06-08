@@ -47,7 +47,7 @@ export const projects: Project[] = [
       "Centralized jobs, internships, and event sharing",
     ],
 
-    liveUrl: "#",
+    liveUrl: "https://kshsconnect.netlify.app/",
   },
   {
     slug: "abes-garage-management-system",
