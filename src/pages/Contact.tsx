@@ -59,7 +59,7 @@ const Contact = () => {
     </Layout>
   );
 };
-
+// this is the card
 const Card = ({ icon: Icon, label, value }: any) => (
   <div className="rounded-3xl border border-border bg-card p-7 hover:shadow-card transition">
     <div className="w-12 h-12 rounded-xl bg-gradient-primary text-primary-foreground grid place-items-center">
