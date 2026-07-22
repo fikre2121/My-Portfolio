@@ -1,53 +1,73 @@
 import Layout from "../Components/site/Layout";
 import PageHero from "../Components/site/PageHero";
 import {
-  Code2,
-  Palette,
-  Search,
-  Megaphone,
-  Smartphone,
-  Layers,
+  Atom,
+  Server,
+  Braces,
+  Triangle,
+  GitBranch,
+  Cloud,
+  Database,
+  Table2,
 } from "lucide-react";
 
-const services = [
+const skills = [
   {
-    icon: Palette,
-    title: "Web Design",
-    desc: "Considered, content-first interfaces with editorial polish.",
+    icon: Atom,
+    title: "React",
+    desc: "Building interactive, component-driven UIs with hooks and modern patterns.",
+    level: 90,
   },
   {
-    icon: Code2,
-    title: "Web Development",
-    desc: "Production React + TypeScript, performance built in from day one.",
+    icon: Triangle,
+    title: "Next.js",
+    desc: "Server-rendered and statically generated apps with file-based routing.",
+    level: 80,
   },
   {
-    icon: Smartphone,
-    title: "Mobile Apps",
-    desc: "Native-feeling iOS and Android products people actually keep open.",
+    icon: Braces,
+    title: "JavaScript",
+    desc: "ES6+ fundamentals — async/await, closures, and clean modern syntax.",
+    level: 90,
   },
   {
-    icon: Layers,
-    title: "Design Systems",
-    desc: "Component libraries that scale across teams and surfaces.",
+    icon: Server,
+    title: "Node.js",
+    desc: "Building REST APIs and backend services with Express.",
+    level: 85,
   },
   {
-    icon: Search,
-    title: "UX Research",
-    desc: "Lightweight discovery — interviews, prototypes, decisions you can act on.",
+    icon: Database,
+    title: "PostgreSQL",
+    desc: "Relational schema design, queries, and data modeling.",
+    level: 75,
   },
   {
-    icon: Megaphone,
-    title: "Brand Strategy",
-    desc: "Identities and voice frameworks built to age well.",
+    icon: Table2,
+    title: "MySQL",
+    desc: "Structuring and querying relational databases for production apps.",
+    level: 75,
+  },
+  {
+    icon: GitBranch,
+    title: "Git",
+    desc: "Version control, branching workflows, and collaborative development.",
+    level: 85,
+  },
+  {
+    icon: Cloud,
+    title: "AWS",
+    desc: "Deploying and hosting full-stack applications in the cloud.",
+    level: 65,
   },
 ];
 
-const Services = () => (
+const Skills = () => (
   <Layout>
-    <PageHero eyebrow="What I Do" title="Services" />
+    <PageHero eyebrow="What I Know" title="Skills" />
     <section className="container-page py-20">
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        {services.map((s) => (
+      <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        {skills.map((s) => (
           <div
             key={s.title}
             className="group rounded-3xl border border-border bg-card p-8 hover:shadow-glow hover:-translate-y-1 transition-all"
@@ -55,8 +75,15 @@ const Services = () => (
             <div className="w-14 h-14 rounded-2xl bg-accent text-accent-foreground grid place-items-center group-hover:bg-gradient-primary group-hover:text-primary-foreground transition">
               <s.icon size={24} />
             </div>
-            <h3 className="font-display text-2xl font-bold mt-6">{s.title}</h3>
-            <p className="text-muted-foreground mt-3">{s.desc}</p>
+            <h3 className="font-display text-xl font-bold mt-6">{s.title}</h3>
+            <p className="text-muted-foreground text-sm mt-3">{s.desc}</p>
+
+            <div className="mt-5 h-1.5 w-full rounded-full bg-accent overflow-hidden">
+              <div
+                className="h-full rounded-full bg-gradient-primary transition-all duration-700"
+                style={{ width: `${s.level}%` }}
+              />
+            </div>
           </div>
         ))}
       </div>
@@ -64,4 +91,4 @@ const Services = () => (
   </Layout>
 );
 
-export default Services;
+export default Skills;

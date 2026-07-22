@@ -1,7 +1,7 @@
 import p1 from "../assets/project-1.png";
 import p2 from "../assets/project-2.png";
-import p3 from "../assets/project-3.jpg";
-import p4 from "../assets/project-4.jpg";
+import p3 from "../assets/project-3.png";
+import p4 from "../assets/project-4.png";
 
 export type Project = {
   slug: string;
@@ -118,7 +118,7 @@ export const projects: Project[] = [
     slug: "curated-portfolio-brand",
     title: "Studio Margin — Brand Identity",
     category: "Branding",
-    image: p3,
+    image: p4,
     client: "Studio Margin",
     date: "November 2024",
     duration: "6 weeks",
