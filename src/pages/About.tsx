@@ -29,6 +29,20 @@ const experiences = [
   },
 ];
 
+const socialLinks = [
+  {
+    icon: Linkedin,
+    url: "https://www.linkedin.com/in/fikrekindeya/",
+  },
+  {
+    icon: Twitter,
+    url: "https://x.com/FKindeya14928",
+  },
+  {
+    icon: Github,
+    url: "https://github.com/fikre2121",
+  },
+];
 const About = () => (
   <Layout>
     <PageHero
@@ -71,20 +85,21 @@ const About = () => (
           modern web technologies to create smarter digital solutions.
         </p>
 
-          <div className="flex items-center gap-8 pt-6 border-t border-border mt-6">
-            <div className="flex items-center gap-6">
-              {[Instagram, Linkedin, Twitter, Github].map((Icon, i) => (
-                <a
-                  key={i}
-                  href="#"
-                  className="w-10 h-10 grid place-items-center rounded-full border border-border hover:bg-gradient-primary hover:text-primary-foreground hover:border-transparent transition"
-                >
-                  <Icon size={16} />
-                </a>
-              ))}
-            </div>
+        <div className="flex items-center gap-8 pt-6 border-t border-border mt-6">
+          <div className="flex items-center gap-6">
+            {socialLinks.map(({ icon: Icon, url }, i) => (
+              <a
+                key={i}
+                href={url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 grid place-items-center rounded-full border border-border hover:bg-gradient-primary hover:text-primary-foreground hover:border-transparent transition"
+              >
+                <Icon size={16} />
+              </a>
+            ))}
           </div>
-      
+        </div>
       </div>
     </section>
 

@@ -11,6 +11,12 @@ const nav = [
   { to: "/contact", label: "Contact" },
 ];
 
+const auth = {
+  logout() {
+    console.log(this);
+  },
+};
+auth.logout()
 const Header = () => {
   const [open, setOpen] = useState(false);
   return (

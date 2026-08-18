@@ -2,6 +2,8 @@ import p1 from "../assets/project-1.png";
 import p2 from "../assets/project-2.png";
 import p3 from "../assets/project-3.png";
 import p4 from "../assets/project-4.png";
+import p5 from "../assets/project-5.jpg";
+import p6 from "../assets/project-6.jpg";
 
 export type Project = {
   slug: string;
@@ -47,7 +49,7 @@ export const projects: Project[] = [
       "Centralized jobs, internships, and event sharing",
     ],
 
-    liveUrl: "#",
+    liveUrl: "https://kshsconnect.vercel.app/",
   },
   {
     slug: "abes-garage-management-system",
@@ -84,7 +86,7 @@ export const projects: Project[] = [
       "Enabled digital service tracking for customers",
       "Improved customer retention through stored service history",
     ],
-    liveUrl: "#",
+    liveUrl: "https://delightful-abegarag.netlify.app/",
   },
   {
     slug: "evangadi-forum",
@@ -115,48 +117,90 @@ export const projects: Project[] = [
     liveUrl: "https://golden-medovik-db5600.netlify.app/",
   },
   {
-    slug: "curated-portfolio-brand",
-    title: "Studio Margin — Brand Identity",
-    category: "Branding",
+    slug: "amazon-clone-fullstack",
+    title: "Amazon Clone",
+    category: "Full Stack Web App",
     image: p4,
-    client: "Studio Margin",
+    client: "Personal Project",
     date: "November 2024",
     duration: "6 weeks",
-    role: "Brand Designer",
-    tags: ["Identity", "Print", "Guidelines"],
-    summary:
-      "An identity for an architecture studio built around restraint, contrast, and the quiet authority of a good grid.",
-    challenge:
-      "The studio wanted gravitas without arrogance and wordmark flexibility for both monumental signage and paperwork.",
-    solution:
-      "A custom wordmark, a two-weight system, and a stationery suite designed to age gracefully across decades.",
-    results: [
-      "Featured in Brand New",
-      "Shortlisted for Brand of the Year 2024",
-      "Adopted across 14 client touchpoints",
+    role: "Full Stack Developer",
+    tags: [
+      "React",
+      "Node.js",
+      "Express",
+      "Firebase",
+      "Authentication",
+      "Stripe",
     ],
+    summary:
+      "A full-stack e-commerce platform recreating Amazon's core shopping experience — product browsing, cart, checkout, and order management.",
+    challenge:
+      "Replicating a complex, high-traffic e-commerce flow (product catalog, cart persistence, secure checkout, and order tracking) with clean architecture and responsive UI, using only a solo build timeline.",
+    solution:
+      "Built a React frontend with a Node/Express REST API backend, implemented user authentication, a persistent shopping cart, product search and filtering, and an order flow with simulated payment handling — structured for easy extension into real payment gateways.",
+    results: [
+      "Fully responsive UI across mobile and desktop",
+      "Implemented end-to-end auth, cart, and checkout flow",
+      "Deployed and hosted live on Netlify",
+    ],
+    liveUrl: "https://amazon-frontmadend.netlify.app/",
   },
   {
-    slug: "saas-landing-experience",
-    title: "Pulse — SaaS Landing Experience",
-    category: "Web Development",
-    image: p4,
-    client: "Pulse Analytics",
-    date: "September 2024",
-    duration: "5 weeks",
-    role: "Full-stack Designer",
-    tags: ["React", "Framer Motion", "SEO"],
-    summary:
-      "A high-conversion landing for a developer-focused analytics product, built for speed and storytelling.",
-    challenge:
-      "A crowded category, a technical audience, and a marketing team that wanted to ship updates without waiting for a deploy.",
-    solution:
-      "A component-driven landing with editor-friendly content blocks, animated proof points, and a sub-second TTI on mobile.",
-    results: [
-      "Lighthouse 99 across the board",
-      "Trial signups +212%",
-      "Marketing ships pages in hours, not days",
+    slug: "netflix-clone-frontend",
+    title: "Netflix Clone",
+    category: "Frontend Web App",
+    image: p6,
+    client: "Personal Project",
+    date: "January 2024",
+    duration: "2 weeks",
+    role: "Frontend Developer",
+    tags: [
+      "React",
+      "TMDB API",
+      "REST API Integration",
+      "Axios",
+      "Bootstrap",
+      "Responsive Design",
+      "UI/UX",
     ],
-    liveUrl: "#",
+    summary:
+      "A Netflix-style browsing UI built around deep integration with the TMDB API — dynamic content rows, live search, and detail views all driven by real API data.",
+    challenge:
+      "Going beyond a static UI clone by architecting a frontend that consumes a real, complex third-party API — handling multiple endpoints (trending, genres, search, recommendations), managing loading and error states, and keeping requests efficient without a backend layer.",
+
+    solution:
+      "Built with React, integrating the TMDB API across several endpoints to populate dynamic content rows, a hero banner, and genre-based browsing. Structured a dedicated API service layer with Axios for clean request handling, implemented debounced live search against the API, handled async loading/error states gracefully, and managed API keys securely via environment variables.",
+
+    results: [
+      "Integrated 5+ TMDB API endpoints (trending, genres, search, details, recommendations)",
+      "Built a reusable API service layer with clean request/response handling",
+      "Implemented live search with debounced API calls",
+      "Fully responsive UI across mobile and desktop",
+    ],
+    liveUrl: "https://chimerical-klepon-797d56.netlify.app/",
+  },
+  {
+    slug: "apple-clone-frontend",
+    title: "Apple Website Clone",
+    category: "Frontend Web App",
+    image: p5,
+    client: "Personal Project",
+    date: "Sebtember 2024",
+    duration: "2 weeks",
+    role: "Frontend Developer",
+    tags: ["React", "GSAP", "Tailwind CSS", "Animation", "Responsive Design"],
+    summary:
+      "A front-end recreation of Apple's product landing page, focused on matching their signature scroll-based animations and minimalist visual style.",
+    challenge:
+      "Recreating Apple's highly polished, animation-driven UI — precise scroll-triggered transitions, video-based product reveals, and pixel-perfect minimalist typography — using only frontend tooling.",
+    solution:
+      "Built with React, Tailwind CSS for layout and styling, and GSAP for scroll-triggered animations and section transitions, closely matching Apple's product page motion design and visual hierarchy without any backend functionality.",
+    results: [
+      "Closely matched Apple's animation and scroll behavior",
+      "Clean, minimalist UI faithful to the original design",
+      "Fully responsive across mobile and desktop",
+    ],
+    liveUrl: "https://animated-kulfi-6c403a.netlify.app/",
   },
 ];

@@ -1,6 +1,26 @@
 import { Link } from "react-router-dom";
 import { Instagram, Linkedin, Twitter, Github } from "lucide-react";
 
+
+
+const socialLinks = [
+
+  {
+    icon: Linkedin,
+    url: "https://www.linkedin.com/in/fikrekindeya/",
+  },
+  {
+    icon: Twitter,
+    url: "https://x.com/FKindeya14928",
+  },
+  {
+    icon: Github,
+    url: "https://github.com/fikre2121",
+  },
+];
+
+
+
 const Footer = () => (
   <footer className="mt-32 border-t border-border bg-secondary/40">
     <div className="container-page py-16 grid gap-10 md:grid-cols-4">
@@ -12,19 +32,25 @@ const Footer = () => (
           <span className="font-display text-2xl font-bold">Fikre</span>
         </Link>
         <p className="mt-4 max-w-md text-muted-foreground">
-          A personal studio for crafting calm, considered digital experiences.
-          Available for select projects through the season.
+          Full-Stack Developer focused on building responsive, scalable, and
+          production-ready web applications. Passionate about solving real-world
+          problems through clean code, modern technologies, and continuous
+          learning.
         </p>
-        <div className="mt-6 flex items-center gap-3">
-          {[Instagram, Linkedin, Twitter, Github].map((Icon, i) => (
-            <a
-              key={i}
-              href="#"
-              className="w-10 h-10 grid place-items-center rounded-full border border-border hover:bg-gradient-primary hover:text-primary-foreground hover:border-transparent transition"
-            >
-              <Icon size={16} />
-            </a>
-          ))}
+        <div className="flex items-center gap-8 pt-6 border-t border-border mt-6">
+          <div className="flex items-center gap-6">
+            {socialLinks.map(({ icon: Icon, url }, i) => (
+              <a
+                key={i}
+                href={url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 grid place-items-center rounded-full border border-border hover:bg-gradient-primary hover:text-primary-foreground hover:border-transparent transition"
+              >
+                <Icon size={16} />
+              </a>
+            ))}
+          </div>
         </div>
       </div>
       <div>
@@ -61,7 +87,6 @@ const Footer = () => (
         </ul>
       </div>
     </div>
-    
   </footer>
 );
 
