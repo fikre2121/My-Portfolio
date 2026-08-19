@@ -1,5 +1,5 @@
 import Layout from "../Components/site/Layout";
-import PageHero from "../components/site/PageHero";
+import PageHero from "../Components/site/PageHero";
 import portrait from "../assets/images/person2.png";
 import {
   
