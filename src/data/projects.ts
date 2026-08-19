@@ -178,7 +178,7 @@ export const projects: Project[] = [
       "Implemented live search with debounced API calls",
       "Fully responsive UI across mobile and desktop",
     ],
-    liveUrl: "https://chimerical-klepon-797d56.netlify.app/",
+    liveUrl: "https://netflx-klepon-797d56.netlify.app/",
   },
   {
     slug: "apple-clone-frontend",
