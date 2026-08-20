@@ -86,7 +86,7 @@ export const projects: Project[] = [
       "Enabled digital service tracking for customers",
       "Improved customer retention through stored service history",
     ],
-    liveUrl: "https://delightful-abegarag.netlify.app/",
+    liveUrl: "https://abegaragee.netlify.app/",
   },
   {
     slug: "evangadi-forum",
@@ -178,7 +178,7 @@ export const projects: Project[] = [
       "Implemented live search with debounced API calls",
       "Fully responsive UI across mobile and desktop",
     ],
-    liveUrl: "https://netflx-klepon-797d56.netlify.app/",
+    liveUrl: "https://netfilxclon.netlify.app/",
   },
   {
     slug: "apple-clone-frontend",
