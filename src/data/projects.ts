@@ -86,7 +86,7 @@ export const projects: Project[] = [
       "Enabled digital service tracking for customers",
       "Improved customer retention through stored service history",
     ],
-    liveUrl: "https://abegaragee.netlify.app/",
+    liveUrl: "https://abegaragemainappp.vercel.app/",
   },
   {
     slug: "evangadi-forum",
@@ -144,7 +144,7 @@ export const projects: Project[] = [
       "Implemented end-to-end auth, cart, and checkout flow",
       "Deployed and hosted live on Netlify",
     ],
-    liveUrl: "https://amazon-frontmadend.netlify.app/",
+    liveUrl: "https://amazon-clone-sable-delta.vercel.app/",
   },
   {
     slug: "netflix-clone-frontend",
@@ -178,7 +178,7 @@ export const projects: Project[] = [
       "Implemented live search with debounced API calls",
       "Fully responsive UI across mobile and desktop",
     ],
-    liveUrl: "https://netfilxclon.netlify.app/",
+    liveUrl: "https://netflix-clone-2025-seven.vercel.app/",
   },
   {
     slug: "apple-clone-frontend",
