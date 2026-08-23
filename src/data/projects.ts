@@ -201,6 +201,6 @@ export const projects: Project[] = [
       "Clean, minimalist UI faithful to the original design",
       "Fully responsive across mobile and desktop",
     ],
-    liveUrl: "https://animated-kulfi-6c403a.netlify.app/",
+    liveUrl: "https://apple-clone-2025.vercel.app/",
   },
 ];
