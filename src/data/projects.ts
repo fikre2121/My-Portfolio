@@ -114,7 +114,7 @@ export const projects: Project[] = [
       "Built a clean and responsive user interface for better user experience",
     ],
 
-    liveUrl: "https://golden-medovik-db5600.netlify.app/",
+    liveUrl: "https://evangdi-forum.vercel.app/",
   },
   {
     slug: "amazon-clone-fullstack",
