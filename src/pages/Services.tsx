@@ -9,6 +9,8 @@ import {
   Cloud,
   Database,
   Table2,
+  Zap,
+  Bot,
 } from "lucide-react";
 
 const skills = [
@@ -35,6 +37,18 @@ const skills = [
     title: "Node.js",
     desc: "Building REST APIs and backend services with Express.",
     level: 85,
+  },
+  {
+    icon: Zap,
+    title: "FastAPI",
+    desc: "Python REST APIs with validation, async endpoints, and clean project structure.",
+    level: 65,
+  },
+  {
+    icon: Bot,
+    title: "AI-Powered Web Apps",
+    desc: "Integrating LLM APIs into React, Next.js, and FastAPI apps to build smart, automated features.",
+    level: 60,
   },
   {
     icon: Database,
